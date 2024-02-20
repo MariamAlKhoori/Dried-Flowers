@@ -1,0 +1,131 @@
+/* Style the tab */
+div.tab {
+  overflow: hidden;
+  border: 1px solid #617e61;
+  background-color: #66a18b;
+}
+
+header {
+  background-color: #D7E4C0;
+}
+
+body {
+  background-color: #7aad667e; 
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+  background-color: #B3A398;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+  background-color: #abbfb4;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* Centered content */
+.centered-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Slides */
+.mySlides.fade {
+  display: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(55, 176, 144);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #D7E4C0;
+}
+
+/* Caption text */
+.text {
+  color: #BBC3A4;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active .dot:hover {
+  background-color: #B3A398;
+}
+
+.footer{
+  background-color: #d6edc4f5;
+}
+
+
+
+
+
+
+
